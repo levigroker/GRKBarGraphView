@@ -23,7 +23,6 @@
 
 @property (nonatomic,strong) GRKBackingLayer *backingLayer;
 @property (nonatomic,strong) GRKBarGraphLayer *barGraphLayer;
-@property (nonatomic,strong) CAShapeLayer *staticLayer;
 
 @end
 
