@@ -15,11 +15,12 @@
 //  appreciated.
 //
 
-#import "GRKBackingLayer.h"
+#import "GRKBarGraphBackingLayer.h"
+#import "GRKBarGraphLayer.h"
 
 static CGFloat const kDefaultBorderThickness = 1.0f;
 
-@implementation GRKBackingLayer
+@implementation GRKBarGraphBackingLayer
 
 @dynamic color, borderThickness;
 
@@ -65,7 +66,7 @@ static CGFloat const kDefaultBorderThickness = 1.0f;
         [self setup];
         
         //Copy custom property values into our new instance from the given layer
-        GRKBackingLayer *baseLayer = (GRKBackingLayer *)layer;
+        GRKBarGraphBackingLayer *baseLayer = (GRKBarGraphBackingLayer *)layer;
         self.color = baseLayer.color;
         self.borderThickness = baseLayer.borderThickness;
     }

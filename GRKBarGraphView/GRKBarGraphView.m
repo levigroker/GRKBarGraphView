@@ -16,13 +16,13 @@
 //
 
 #import "GRKBarGraphView.h"
-#import "GRKBackingLayer.h"
+#import "GRKBarGraphBackingLayer.h"
 #import "GRKBarGraphLayer.h"
 
 @interface GRKBarGraphView ()
 
-@property (nonatomic,strong) GRKBackingLayer *backingLayer;
-@property (nonatomic,strong) GRKBarGraphLayer *barGraphLayer;
+@property (nonatomic,strong) GRKBarGraphBackingLayer *backingLayer;
+@property (nonatomic,strong) GRKBarGraphLayer *graphLayer;
 
 @end
 
@@ -32,7 +32,7 @@
 
 + (Class)layerClass
 {
-    return GRKBackingLayer.class;
+    return GRKBarGraphBackingLayer.class;
 }
 
 + (BOOL)requiresConstraintBasedLayout
@@ -76,11 +76,13 @@
     //This optimizes the drawing when animating.
     //The backing layer is configured to layout its subviews with the same dimensions as itself, so we need not specify the frame of the sublayer here.
     
-    self.backingLayer = (GRKBackingLayer *)[self layer];
+    self.backingLayer = (GRKBarGraphBackingLayer *)[self layer];
     
     self.barGraphLayer = [[GRKBarGraphLayer alloc] init];
     self.barGraphLayer.contentsScale = [UIScreen mainScreen].scale;
     [self.layer addSublayer:self.barGraphLayer];
+    self.graphLayer = [[GRKBarGraphLayer alloc] init];
+    self.graphLayer.contentsScale = [UIScreen mainScreen].scale;
 
     //Setup our defaults
     self.barColorUsesTintColor = YES;
@@ -94,37 +96,37 @@
 
 - (void)setMediaTimingFunction:(CAMediaTimingFunction *)mediaTimingFunction
 {
-    self.barGraphLayer.mediaTimingFunction = mediaTimingFunction;
+    self.graphLayer.mediaTimingFunction = mediaTimingFunction;
 }
 
 - (CAMediaTimingFunction *)mediaTimingFunction
 {
-    return self.barGraphLayer.mediaTimingFunction;
+    return self.graphLayer.mediaTimingFunction;
 }
 
 - (void)setAnimationDuration:(NSTimeInterval)animationDuration
 {
-    self.barGraphLayer.animationDuration = animationDuration;
+    self.graphLayer.animationDuration = animationDuration;
 }
 
 - (NSTimeInterval)animationDuration
 {
-    return self.barGraphLayer.animationDuration;
+    return self.graphLayer.animationDuration;
 }
 
 - (UIColor *)barColor
 {
-    return [UIColor colorWithCGColor:self.barGraphLayer.color];
+    return [UIColor colorWithCGColor:self.graphLayer.color];
 }
 
 - (void)setBarColor:(UIColor *)barColor
 {
-    self.barGraphLayer.color = [barColor CGColor];
+    self.graphLayer.color = [barColor CGColor];
 }
 
 - (CGFloat)percent
 {
-    return self.barGraphLayer.percent;
+    return self.graphLayer.percent;
 }
 
 - (void)setPercent:(CGFloat)percent
@@ -132,17 +134,17 @@
     //Sanitize input
     percent = MAX(0.0f, MIN(1.0f, percent));
     
-    self.barGraphLayer.percent = percent;
+    self.graphLayer.percent = percent;
 }
 
 - (GRKBarStyle)barStyle
 {
-    return self.barGraphLayer.barStyle;
+    return self.graphLayer.barStyle;
 }
 
 - (void)setBarStyle:(GRKBarStyle)barStyle
 {
-    self.barGraphLayer.barStyle = barStyle;
+    self.graphLayer.barStyle = barStyle;
 }
 
 - (void)setBarColorUsesTintColor:(BOOL)barColorUsesTintColor

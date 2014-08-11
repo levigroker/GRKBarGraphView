@@ -17,7 +17,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface GRKBackingLayer : CALayer
+@interface GRKBarGraphBackingLayer : CALayer
 
 /**
  *  The color used to draw the border.
