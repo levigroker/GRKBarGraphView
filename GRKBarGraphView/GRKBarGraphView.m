@@ -77,6 +77,7 @@
     //The backing layer is configured to layout its subviews with the same dimensions as itself, so we need not specify the frame of the sublayer here.
     
     self.backingLayer = (GRKBarGraphBackingLayer *)[self layer];
+    self.backingLayer.contentsScale = [UIScreen mainScreen].scale;
     
     self.graphLayer = [[GRKBarGraphLayer alloc] init];
     self.graphLayer.contentsScale = [UIScreen mainScreen].scale;
