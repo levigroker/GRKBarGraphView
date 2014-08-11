@@ -78,9 +78,6 @@
     
     self.backingLayer = (GRKBarGraphBackingLayer *)[self layer];
     
-    self.barGraphLayer = [[GRKBarGraphLayer alloc] init];
-    self.barGraphLayer.contentsScale = [UIScreen mainScreen].scale;
-    [self.layer addSublayer:self.barGraphLayer];
     self.graphLayer = [[GRKBarGraphLayer alloc] init];
     self.graphLayer.contentsScale = [UIScreen mainScreen].scale;
 
