@@ -88,7 +88,6 @@
     self.barColorUsesTintColor = YES;
     self.backingLayer.color = self.tintColor.CGColor;
     self.barColor = self.tintColor;
-    self.backgroundColor = [UIColor clearColor];
     self.translatesAutoresizingMaskIntoConstraints = NO;
 }
 
