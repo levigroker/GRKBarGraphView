@@ -81,6 +81,8 @@
     
     self.graphLayer = [[GRKBarGraphLayer alloc] init];
     self.graphLayer.contentsScale = [UIScreen mainScreen].scale;
+    //Insert our graph layer below any other layers which may have been added (i.e. by a subview)
+    [self.layer insertSublayer:self.graphLayer atIndex:0];
 
     //Setup our defaults
     self.barColorUsesTintColor = YES;
