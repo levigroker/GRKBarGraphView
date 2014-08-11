@@ -46,10 +46,5 @@
  *  @see GRKBarStyle
  */
 @property (nonatomic,assign) GRKBarStyle barStyle;
-/**
- *  The insets used when rendering the bar.
- *  These default to {1.0, 1.0, 1.0, 1.0}
- */
-@property (nonatomic,assign) UIEdgeInsets edgeInsets;
 
 @end

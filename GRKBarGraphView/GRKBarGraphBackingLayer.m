@@ -82,10 +82,17 @@ static CGFloat const kDefaultBorderThickness = 1.0f;
 
 - (void)layoutSublayers
 {
-    //We want our sublayers to have our bounds
+    [super layoutSublayers];
+    
+    //We want our graph layer to have our bounds, inset by our border thickness
+    CGRect subLayerRect = CGRectInset(self.bounds, self.borderThickness, self.borderThickness);
     for (CALayer *sublayer in self.sublayers)
     {
-        sublayer.frame = self.bounds;
+        if ([sublayer isKindOfClass:GRKBarGraphLayer.class])
+        {
+            sublayer.frame = subLayerRect;
+            break;
+        }
     }
 }
 

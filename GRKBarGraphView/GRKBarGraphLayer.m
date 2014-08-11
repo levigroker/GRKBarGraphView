@@ -18,7 +18,6 @@
 #import "GRKBarGraphLayer.h"
 
 static NSTimeInterval const kGRKDefaultAnimationDuration = 0.0f;
-static CGFloat const kDefaultEdgeInset = 1.0f;
 
 @implementation GRKBarGraphLayer
 
@@ -83,7 +82,6 @@ static CGFloat const kDefaultEdgeInset = 1.0f;
         self.mediaTimingFunction = baseLayer.mediaTimingFunction;
         self.percent = baseLayer.percent;
         self.color = baseLayer.color;
-        self.edgeInsets = baseLayer.edgeInsets;
         self.barStyle = baseLayer.barStyle;
     }
     return self;
@@ -97,17 +95,6 @@ static CGFloat const kDefaultEdgeInset = 1.0f;
     self.mediaTimingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     self.animationDuration = kGRKDefaultAnimationDuration;
     self.barStyle = GRKBarStyleFromLeft;
-    self.edgeInsets = UIEdgeInsetsMake(kDefaultEdgeInset, kDefaultEdgeInset, kDefaultEdgeInset, kDefaultEdgeInset);
-}
-
-#pragma mark - Accessors
-
-- (void)setEdgeInsets:(UIEdgeInsets)edgeInsets
-{
-    //For some reason we can not use the edgeInsets as a dynamic property (if we do, we get an unhandled selector exception when accessing)...
-    //So... we handle the setter manually, ensuring we indicate the need to refresh our display
-    _edgeInsets = edgeInsets;
-    [self setNeedsDisplay];
 }
 
 #pragma mark - CALayer Delegate
@@ -162,36 +149,36 @@ static CGFloat const kDefaultEdgeInset = 1.0f;
     {
         case GRKBarStyleFromTop:
         {
-            x = self.edgeInsets.left;
-            y = self.edgeInsets.top;
-            width = self.bounds.size.width - (self.edgeInsets.left + self.edgeInsets.right);
-            height = (self.bounds.size.height - (self.edgeInsets.top + self.edgeInsets.bottom)) * self.percent;
+            x = 0;
+            y = 0;
+            width = self.bounds.size.width;
+            height = self.bounds.size.height * self.percent;
             break;
         }
         case GRKBarStyleFromBottom:
         {
-            height = (self.bounds.size.height - (self.edgeInsets.top + self.edgeInsets.bottom)) * self.percent;
-            x = self.edgeInsets.left;
-            y = self.edgeInsets.top + (self.bounds.size.height - (height + self.edgeInsets.bottom));
-            width = self.bounds.size.width - (self.edgeInsets.left + self.edgeInsets.right);
-            height = (self.bounds.size.height - (self.edgeInsets.top + self.edgeInsets.bottom)) * self.percent;
+            height = self.bounds.size.height * self.percent;
+            x = 0;
+            y = self.bounds.size.height - height;
+            width = self.bounds.size.width;
+            height = self.bounds.size.height * self.percent;
             break;
         }
         case GRKBarStyleFromRight:
         {
-            width = (self.bounds.size.width - (self.edgeInsets.left + self.edgeInsets.right)) * self.percent;
-            x = self.edgeInsets.left + (self.bounds.size.width - (width + self.edgeInsets.right));
-            y = self.edgeInsets.top;
-            height = self.bounds.size.height - (self.edgeInsets.top + self.edgeInsets.bottom);
+            width = self.bounds.size.width * self.percent;
+            x = self.bounds.size.width - width;
+            y = 0;
+            height = self.bounds.size.height;
             break;
         }
         case GRKBarStyleFromLeft:
         default:
         {
-            x = self.edgeInsets.left;
-            y = self.edgeInsets.top;
-            width = (self.bounds.size.width - (self.edgeInsets.left + self.edgeInsets.right)) * self.percent;
-            height = self.bounds.size.height - (self.edgeInsets.top + self.edgeInsets.bottom);
+            x = 0;
+            y = 0;
+            width = self.bounds.size.width * self.percent;
+            height = self.bounds.size.height;
             break;
         }
     }
