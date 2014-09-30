@@ -42,15 +42,6 @@
 
 #pragma mark - Lifecycle
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [self setup];
-    }
-    return self;
-}
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -78,7 +69,7 @@
     
     self.backingLayer = (GRKBarGraphBackingLayer *)[self layer];
     self.backingLayer.contentsScale = [UIScreen mainScreen].scale;
-    
+
     self.graphLayer = [[GRKBarGraphLayer alloc] init];
     self.graphLayer.contentsScale = [UIScreen mainScreen].scale;
     //Insert our graph layer below any other layers which may have been added (i.e. by a subview)
