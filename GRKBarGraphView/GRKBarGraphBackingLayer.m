@@ -76,6 +76,7 @@ static CGFloat const kDefaultBorderThickness = 1.0f;
 - (void)setup
 {
     self.borderThickness = kDefaultBorderThickness;
+    self.backgroundColor = [[UIColor clearColor] CGColor];
 }
 
 #pragma mark - Layout

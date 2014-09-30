@@ -95,6 +95,7 @@ static NSTimeInterval const kGRKDefaultAnimationDuration = 0.0f;
     self.mediaTimingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     self.animationDuration = kGRKDefaultAnimationDuration;
     self.barStyle = GRKBarStyleFromLeft;
+    self.backgroundColor = [[UIColor clearColor] CGColor];
 }
 
 #pragma mark - CALayer Delegate
