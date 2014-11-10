@@ -146,6 +146,13 @@
     }
 }
 
+#pragma mark - Implementation
+
+- (void)stopAnimation
+{
+    [self.graphLayer removeAnimationForKey:@"percent"];
+}
+
 #pragma mark - Overrides
 
 - (void)tintColorDidChange

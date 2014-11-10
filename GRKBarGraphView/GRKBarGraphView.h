@@ -79,4 +79,9 @@ typedef NS_ENUM(NSUInteger, GRKBarStyle) {
  */
 @property (nonatomic,assign) BOOL barColorUsesTintColor;
 
+/**
+ * Immediately stops any in-progress animation for the `percent` property.
+ */
+- (void)stopAnimation;
+
 @end
