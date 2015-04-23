@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB787C871970948B007DF300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C861970948B007DF300 /* Foundation.framework */; };
+		DB787C891970948B007DF300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C881970948B007DF300 /* CoreGraphics.framework */; };
+		DB787C8B1970948B007DF300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C8A1970948B007DF300 /* UIKit.framework */; };
+		DB787C911970948B007DF300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB787C8F1970948B007DF300 /* InfoPlist.strings */; };
+		DB787C931970948B007DF300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787C921970948B007DF300 /* main.m */; };
+		DB787C971970948B007DF300 /* GRKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787C961970948B007DF300 /* GRKAppDelegate.m */; };
+		DB787C9A1970948B007DF300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB787C981970948B007DF300 /* Main.storyboard */; };
+		DB787C9D1970948B007DF300 /* GRKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787C9C1970948B007DF300 /* GRKViewController.m */; };
+		DB787C9F1970948B007DF300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB787C9E1970948B007DF300 /* Images.xcassets */; };
+		DB787CA61970948B007DF300 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787CA51970948B007DF300 /* XCTest.framework */; };
+		DB787CA71970948B007DF300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C861970948B007DF300 /* Foundation.framework */; };
+		DB787CA81970948B007DF300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C8A1970948B007DF300 /* UIKit.framework */; };
+		DB787CB01970948B007DF300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB787CAE1970948B007DF300 /* InfoPlist.strings */; };
+		DB787CB21970948B007DF300 /* GRKBarGraphViewTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787CB11970948B007DF300 /* GRKBarGraphViewTestAppTests.m */; };
+		DB787CBD197094DF007DF300 /* GRKBarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787CBC197094DF007DF300 /* GRKBarGraphView.m */; };
+		DB787CC019747379007DF300 /* GRKBarGraphLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787CBF19747379007DF300 /* GRKBarGraphLayer.m */; };
+		DB787CC41974AB10007DF300 /* GRKBarGraphBackingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787CC31974AB10007DF300 /* GRKBarGraphBackingLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB787CA91970948B007DF300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB787C7B1970948B007DF300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB787C821970948B007DF300;
+			remoteInfo = GRKBarGraphViewTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB787C831970948B007DF300 /* GRKBarGraphViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRKBarGraphViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB787C861970948B007DF300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB787C881970948B007DF300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB787C8A1970948B007DF300 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB787C8E1970948B007DF300 /* GRKBarGraphViewTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRKBarGraphViewTestApp-Info.plist"; sourceTree = "<group>"; };
+		DB787C901970948B007DF300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB787C921970948B007DF300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB787C941970948B007DF300 /* GRKBarGraphViewTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GRKBarGraphViewTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		DB787C951970948B007DF300 /* GRKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRKAppDelegate.h; sourceTree = "<group>"; };
+		DB787C961970948B007DF300 /* GRKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKAppDelegate.m; sourceTree = "<group>"; };
+		DB787C991970948B007DF300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB787C9B1970948B007DF300 /* GRKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRKViewController.h; sourceTree = "<group>"; };
+		DB787C9C1970948B007DF300 /* GRKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKViewController.m; sourceTree = "<group>"; };
+		DB787C9E1970948B007DF300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB787CA41970948B007DF300 /* GRKBarGraphViewTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRKBarGraphViewTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB787CA51970948B007DF300 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB787CAD1970948B007DF300 /* GRKBarGraphViewTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRKBarGraphViewTestAppTests-Info.plist"; sourceTree = "<group>"; };
+		DB787CAF1970948B007DF300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB787CB11970948B007DF300 /* GRKBarGraphViewTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphViewTestAppTests.m; sourceTree = "<group>"; };
+		DB787CBB197094DF007DF300 /* GRKBarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRKBarGraphView.h; path = ../../GRKBarGraphView/GRKBarGraphView.h; sourceTree = "<group>"; };
+		DB787CBC197094DF007DF300 /* GRKBarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRKBarGraphView.m; path = ../../GRKBarGraphView/GRKBarGraphView.m; sourceTree = "<group>"; };
+		DB787CBE19747379007DF300 /* GRKBarGraphLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRKBarGraphLayer.h; path = ../../GRKBarGraphView/GRKBarGraphLayer.h; sourceTree = "<group>"; };
+		DB787CBF19747379007DF300 /* GRKBarGraphLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRKBarGraphLayer.m; path = ../../GRKBarGraphView/GRKBarGraphLayer.m; sourceTree = "<group>"; };
+		DB787CC21974AB10007DF300 /* GRKBarGraphBackingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRKBarGraphBackingLayer.h; path = ../../GRKBarGraphView/GRKBarGraphBackingLayer.h; sourceTree = "<group>"; };
+		DB787CC31974AB10007DF300 /* GRKBarGraphBackingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRKBarGraphBackingLayer.m; path = ../../GRKBarGraphView/GRKBarGraphBackingLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB787C801970948B007DF300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB787C891970948B007DF300 /* CoreGraphics.framework in Frameworks */,
+				DB787C8B1970948B007DF300 /* UIKit.framework in Frameworks */,
+				DB787C871970948B007DF300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB787CA11970948B007DF300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB787CA61970948B007DF300 /* XCTest.framework in Frameworks */,
+				DB787CA81970948B007DF300 /* UIKit.framework in Frameworks */,
+				DB787CA71970948B007DF300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB787C7A1970948B007DF300 = {
+			isa = PBXGroup;
+			children = (
+				DB787C8C1970948B007DF300 /* GRKBarGraphViewTestApp */,
+				DB787CAB1970948B007DF300 /* GRKBarGraphViewTestAppTests */,
+				DB787C851970948B007DF300 /* Frameworks */,
+				DB787C841970948B007DF300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB787C841970948B007DF300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB787C831970948B007DF300 /* GRKBarGraphViewTestApp.app */,
+				DB787CA41970948B007DF300 /* GRKBarGraphViewTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB787C851970948B007DF300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB787C861970948B007DF300 /* Foundation.framework */,
+				DB787C881970948B007DF300 /* CoreGraphics.framework */,
+				DB787C8A1970948B007DF300 /* UIKit.framework */,
+				DB787CA51970948B007DF300 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB787C8C1970948B007DF300 /* GRKBarGraphViewTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB787CC11974737F007DF300 /* GRKBarGraphView */,
+				DB787C951970948B007DF300 /* GRKAppDelegate.h */,
+				DB787C961970948B007DF300 /* GRKAppDelegate.m */,
+				DB787C981970948B007DF300 /* Main.storyboard */,
+				DB787C9B1970948B007DF300 /* GRKViewController.h */,
+				DB787C9C1970948B007DF300 /* GRKViewController.m */,
+				DB787C9E1970948B007DF300 /* Images.xcassets */,
+				DB787C8D1970948B007DF300 /* Supporting Files */,
+			);
+			path = GRKBarGraphViewTestApp;
+			sourceTree = "<group>";
+		};
+		DB787C8D1970948B007DF300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB787C8E1970948B007DF300 /* GRKBarGraphViewTestApp-Info.plist */,
+				DB787C8F1970948B007DF300 /* InfoPlist.strings */,
+				DB787C921970948B007DF300 /* main.m */,
+				DB787C941970948B007DF300 /* GRKBarGraphViewTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB787CAB1970948B007DF300 /* GRKBarGraphViewTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB787CB11970948B007DF300 /* GRKBarGraphViewTestAppTests.m */,
+				DB787CAC1970948B007DF300 /* Supporting Files */,
+			);
+			path = GRKBarGraphViewTestAppTests;
+			sourceTree = "<group>";
+		};
+		DB787CAC1970948B007DF300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB787CAD1970948B007DF300 /* GRKBarGraphViewTestAppTests-Info.plist */,
+				DB787CAE1970948B007DF300 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB787CC11974737F007DF300 /* GRKBarGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				DB787CBB197094DF007DF300 /* GRKBarGraphView.h */,
+				DB787CBC197094DF007DF300 /* GRKBarGraphView.m */,
+				DB787CBE19747379007DF300 /* GRKBarGraphLayer.h */,
+				DB787CBF19747379007DF300 /* GRKBarGraphLayer.m */,
+				DB787CC21974AB10007DF300 /* GRKBarGraphBackingLayer.h */,
+				DB787CC31974AB10007DF300 /* GRKBarGraphBackingLayer.m */,
+			);
+			name = GRKBarGraphView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB787C821970948B007DF300 /* GRKBarGraphViewTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB787CB51970948B007DF300 /* Build configuration list for PBXNativeTarget "GRKBarGraphViewTestApp" */;
+			buildPhases = (
+				DB787C7F1970948B007DF300 /* Sources */,
+				DB787C801970948B007DF300 /* Frameworks */,
+				DB787C811970948B007DF300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRKBarGraphViewTestApp;
+			productName = GRKBarGraphViewTestApp;
+			productReference = DB787C831970948B007DF300 /* GRKBarGraphViewTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB787CA31970948B007DF300 /* GRKBarGraphViewTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB787CB81970948B007DF300 /* Build configuration list for PBXNativeTarget "GRKBarGraphViewTestAppTests" */;
+			buildPhases = (
+				DB787CA01970948B007DF300 /* Sources */,
+				DB787CA11970948B007DF300 /* Frameworks */,
+				DB787CA21970948B007DF300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB787CAA1970948B007DF300 /* PBXTargetDependency */,
+			);
+			name = GRKBarGraphViewTestAppTests;
+			productName = GRKBarGraphViewTestAppTests;
+			productReference = DB787CA41970948B007DF300 /* GRKBarGraphViewTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB787C7B1970948B007DF300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GRK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Levi Brown";
+				TargetAttributes = {
+					DB787CA31970948B007DF300 = {
+						TestTargetID = DB787C821970948B007DF300;
+					};
+				};
+			};
+			buildConfigurationList = DB787C7E1970948B007DF300 /* Build configuration list for PBXProject "GRKBarGraphViewTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB787C7A1970948B007DF300;
+			productRefGroup = DB787C841970948B007DF300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB787C821970948B007DF300 /* GRKBarGraphViewTestApp */,
+				DB787CA31970948B007DF300 /* GRKBarGraphViewTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB787C811970948B007DF300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB787C9F1970948B007DF300 /* Images.xcassets in Resources */,
+				DB787C911970948B007DF300 /* InfoPlist.strings in Resources */,
+				DB787C9A1970948B007DF300 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB787CA21970948B007DF300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB787CB01970948B007DF300 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB787C7F1970948B007DF300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB787CC41974AB10007DF300 /* GRKBarGraphBackingLayer.m in Sources */,
+				DB787C9D1970948B007DF300 /* GRKViewController.m in Sources */,
+				DB787C931970948B007DF300 /* main.m in Sources */,
+				DB787CBD197094DF007DF300 /* GRKBarGraphView.m in Sources */,
+				DB787C971970948B007DF300 /* GRKAppDelegate.m in Sources */,
+				DB787CC019747379007DF300 /* GRKBarGraphLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB787CA01970948B007DF300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB787CB21970948B007DF300 /* GRKBarGraphViewTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB787CAA1970948B007DF300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB787C821970948B007DF300 /* GRKBarGraphViewTestApp */;
+			targetProxy = DB787CA91970948B007DF300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB787C8F1970948B007DF300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB787C901970948B007DF300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB787C981970948B007DF300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB787C991970948B007DF300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB787CAE1970948B007DF300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB787CAF1970948B007DF300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB787CB31970948B007DF300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB787CB41970948B007DF300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB787CB61970948B007DF300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRKBarGraphViewTestApp/GRKBarGraphViewTestApp-Prefix.pch";
+				INFOPLIST_FILE = "GRKBarGraphViewTestApp/GRKBarGraphViewTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB787CB71970948B007DF300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRKBarGraphViewTestApp/GRKBarGraphViewTestApp-Prefix.pch";
+				INFOPLIST_FILE = "GRKBarGraphViewTestApp/GRKBarGraphViewTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB787CB91970948B007DF300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GRKBarGraphViewTestApp.app/GRKBarGraphViewTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRKBarGraphViewTestApp/GRKBarGraphViewTestApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GRKBarGraphViewTestAppTests/GRKBarGraphViewTestAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB787CBA1970948B007DF300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GRKBarGraphViewTestApp.app/GRKBarGraphViewTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRKBarGraphViewTestApp/GRKBarGraphViewTestApp-Prefix.pch";
+				INFOPLIST_FILE = "GRKBarGraphViewTestAppTests/GRKBarGraphViewTestAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB787C7E1970948B007DF300 /* Build configuration list for PBXProject "GRKBarGraphViewTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB787CB31970948B007DF300 /* Debug */,
+				DB787CB41970948B007DF300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB787CB51970948B007DF300 /* Build configuration list for PBXNativeTarget "GRKBarGraphViewTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB787CB61970948B007DF300 /* Debug */,
+				DB787CB71970948B007DF300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB787CB81970948B007DF300 /* Build configuration list for PBXNativeTarget "GRKBarGraphViewTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB787CB91970948B007DF300 /* Debug */,
+				DB787CBA1970948B007DF300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB787C7B1970948B007DF300 /* Project object */;
+}
