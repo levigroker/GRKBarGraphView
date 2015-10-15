@@ -11,7 +11,7 @@
 
 @interface GRKViewController ()
 
-@property (nonatomic,weak) IBOutlet GRKBarGraphView *barGraphView;
+@property (nonatomic,strong) GRKBarGraphView *barGraphView;
 
 @property (nonatomic,weak) IBOutlet UISlider *widthSlider;
 @property (nonatomic,weak) IBOutlet UISlider *heightSlider;
@@ -28,6 +28,8 @@
 
 @property (nonatomic,weak) IBOutlet NSLayoutConstraint *widthConstraint;
 @property (nonatomic,weak) IBOutlet NSLayoutConstraint *heightConstraint;
+
+@property (nonatomic,weak) IBOutlet UIView *backgroundView;
 
 @property (nonatomic,strong) UIView *tintColorSelectionView;
 @property (nonatomic,strong) UIView *fillColorSelectionView;
@@ -47,6 +49,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.barGraphView = [[GRKBarGraphView alloc] initWithFrame:CGRectZero];
+    [self.backgroundView addSubview:self.barGraphView];
+    
+    self.widthConstraint = [NSLayoutConstraint constraintWithItem:self.barGraphView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0f];
+    [self.barGraphView addConstraint:self.widthConstraint];
+    self.heightConstraint = [NSLayoutConstraint constraintWithItem:self.barGraphView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0f];
+    [self.barGraphView addConstraint:self.heightConstraint];
+    
+    [self.backgroundView addConstraint:[NSLayoutConstraint constraintWithItem:self.barGraphView attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.backgroundView attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0f]];
+    [self.backgroundView addConstraint:[NSLayoutConstraint constraintWithItem:self.barGraphView attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.backgroundView attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0.0f]];
+
     
     UISlider *heightSlider = self.heightSlider;
     [heightSlider removeFromSuperview];
