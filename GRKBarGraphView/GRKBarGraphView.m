@@ -80,6 +80,9 @@
     self.backingLayer.color = self.tintColor.CGColor;
     self.barColor = self.tintColor;
     self.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    //Our view must not be opaque if we are to have our backing layer use a clearColor background (else we end up with black where we use clearColor in the layer).
+    self.opaque = NO;
 }
 
 #pragma mark - Accessors
