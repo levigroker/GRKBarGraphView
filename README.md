@@ -1,5 +1,10 @@
 GRKBarGraphView
 ===========
+[![Build Status](https://travis-ci.org/levigroker/GRKBarGraphView.svg)](https://travis-ci.org/levigroker/GRKBarGraphView)
+[![Version](http://img.shields.io/cocoapods/v/GRKBarGraphView.svg)](http://cocoapods.org/?q=GRKBarGraphView)
+[![Platform](http://img.shields.io/cocoapods/p/GRKBarGraphView.svg)]()
+[![License](http://img.shields.io/cocoapods/l/GRKBarGraphView.svg)](https://github.com/levigroker/GRKBarGraphView/blob/master/LICENSE.txt)
+
 A UIView subclass which renders a one-item bar graph with an animatable percentage
 property and configurable orientation, colors, etc. CALayers are used for drawing
 efficiency and implicit animation.
@@ -44,7 +49,6 @@ A professional iOS engineer by day, my name is Levi Brown. Authoring a technical
 [grokin.gs](http://grokin.gs), I am reachable via:
 
 Twitter [@levigroker](https://twitter.com/levigroker)  
-App.net [@levigroker](https://alpha.app.net/levigroker)  
 Email [levigroker@gmail.com](mailto:levigroker@gmail.com)  
 
 Your constructive comments and feedback are always welcome.
