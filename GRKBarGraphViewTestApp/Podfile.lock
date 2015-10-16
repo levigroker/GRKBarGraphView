@@ -1,0 +1,14 @@
+PODS:
+  - GRKBarGraphView (1.1.3)
+
+DEPENDENCIES:
+  - GRKBarGraphView (from `..`)
+
+EXTERNAL SOURCES:
+  GRKBarGraphView:
+    :path: ..
+
+SPEC CHECKSUMS:
+  GRKBarGraphView: 153ded51b3d9cb450a6aa8a20f018185ab64e56b
+
+COCOAPODS: 0.39.0
