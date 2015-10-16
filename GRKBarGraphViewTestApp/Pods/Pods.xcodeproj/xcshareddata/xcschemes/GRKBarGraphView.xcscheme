@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1C0BB2A059D756CCF0EDC33B'
+               BlueprintIdentifier = '5046A72A71ADFDB7327DE93E'
                BlueprintName = 'GRKBarGraphView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGRKBarGraphView.a'>
