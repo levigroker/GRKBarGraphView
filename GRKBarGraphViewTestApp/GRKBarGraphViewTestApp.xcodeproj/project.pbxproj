@@ -17,7 +17,6 @@
 		DB787C9A1970948B007DF300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB787C981970948B007DF300 /* Main.storyboard */; };
 		DB787C9D1970948B007DF300 /* GRKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB787C9C1970948B007DF300 /* GRKViewController.m */; };
 		DB787C9F1970948B007DF300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB787C9E1970948B007DF300 /* Images.xcassets */; };
-		DB787CA61970948B007DF300 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787CA51970948B007DF300 /* XCTest.framework */; };
 		DB787CA71970948B007DF300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C861970948B007DF300 /* Foundation.framework */; };
 		DB787CA81970948B007DF300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C8A1970948B007DF300 /* UIKit.framework */; };
 		DB787CB01970948B007DF300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB787CAE1970948B007DF300 /* InfoPlist.strings */; };
@@ -53,7 +52,6 @@
 		DB787C9C1970948B007DF300 /* GRKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKViewController.m; sourceTree = "<group>"; };
 		DB787C9E1970948B007DF300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB787CA41970948B007DF300 /* GRKBarGraphViewTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRKBarGraphViewTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB787CA51970948B007DF300 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DB787CAD1970948B007DF300 /* GRKBarGraphViewTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRKBarGraphViewTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		DB787CAF1970948B007DF300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB787CB11970948B007DF300 /* GRKBarGraphViewTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphViewTestAppTests.m; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB787CA61970948B007DF300 /* XCTest.framework in Frameworks */,
 				DB787CA81970948B007DF300 /* UIKit.framework in Frameworks */,
 				DB787CA71970948B007DF300 /* Foundation.framework in Frameworks */,
 			);
@@ -119,7 +116,6 @@
 				DB787C861970948B007DF300 /* Foundation.framework */,
 				DB787C881970948B007DF300 /* CoreGraphics.framework */,
 				DB787C8A1970948B007DF300 /* UIKit.framework */,
-				DB787CA51970948B007DF300 /* XCTest.framework */,
 				1847743A8F5466FC6D3800FA /* libPods.a */,
 			);
 			name = Frameworks;
