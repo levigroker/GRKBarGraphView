@@ -7,89 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0218FABB0F662FC0C9098CF074EA960D /* GRKBarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF3773133169FB8C348DB0CDB1D9CAB /* GRKBarGraphView.m */; };
-		08222A28F64BC27A5D96C7E193FEAD46 /* GRKBarGraphLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A46E85D8BF0AFE8724361C274D2C995F /* GRKBarGraphLayer.m */; };
-		1255E4B1A47B69AF9728EFCA79757588 /* GRKBarGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F77E18790A7B4426DF483067474190 /* GRKBarGraphView-dummy.m */; };
-		28E725BB53EB801324E4201FF4BF3084 /* GRKBarGraphLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9131B8DBB16FF80F81B0132D2F4ED4 /* GRKBarGraphLayer.h */; };
-		31828BFE3EE65989D7AD799A23D2CB50 /* GRKBarGraphBackingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7256E80BA00BB1C0F2B9EC37CC86ED74 /* GRKBarGraphBackingLayer.h */; };
-		33B188779A38ABA905F941216B2A5959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83B7A5FE2E91B37475649CF8ED1E035 /* Foundation.framework */; };
-		CAAED7BE06AA1D78D3FE2B03AAF2BDB8 /* GRKBarGraphBackingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA84465306FA46A5FC43A7181C5BCC78 /* GRKBarGraphBackingLayer.m */; };
-		CBB7F32EDA575F95987C4D87B45A78D3 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F38A77C58F88038B977C34A9A79061 /* Pods-dummy.m */; };
-		FD4549AD99ED8305D1CE94A23422EACB /* GRKBarGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = 884347DA030F675474F3C184EB3618E8 /* GRKBarGraphView.h */; };
-		FE5050E7C07D08531FE213753DC74794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83B7A5FE2E91B37475649CF8ED1E035 /* Foundation.framework */; };
+		1D029B1E6DCE7B2CC994D3B4A26C2FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		424D72D043273CB1CBFDBE5EFF1C2D84 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		6149A0F797F9C14BBD43870AF1740850 /* GRKBarGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680A397B644C132460A1E6A2F95C8B /* GRKBarGraphView-dummy.m */; };
+		6F674260C9EC20082B71A8938AC054F8 /* GRKBarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928B590939C2BDB1DB876A1B77E2DA33 /* GRKBarGraphView.m */; };
+		78654965CB226261A9DEEAE410542E14 /* GRKBarGraphLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C065C0D56E7AEB6148786F3889D9CCA /* GRKBarGraphLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A208A567D798B36AA22416055976A2FA /* GRKBarGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6363D4613211A1DC6DC2D325DA981444 /* GRKBarGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4D15595DFEE63F366804461CB98F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C2B348E7540CEF57F6E2EA0C9A146F2B /* GRKBarGraphBackingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F792AF2C9CB4385E7432BFC077D7EB /* GRKBarGraphBackingLayer.m */; };
+		E40D8AC65FA47E788A3661AD0F553D0A /* GRKBarGraphLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85091EE3A59B2B284E527B2E95BA8934 /* GRKBarGraphLayer.m */; };
+		FFF9FFBB4608CD98F49506C14ECC4005 /* GRKBarGraphBackingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E08C05F418F1BF817F67DF148520D977 /* GRKBarGraphBackingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B6B43F6830812AFD922FB90D80721A2 /* PBXContainerItemProxy */ = {
+		46294CF3DD3C3D086D1CCAD22B1809CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1983ECA81B19AF9198D5E8944C96DF97;
+			remoteGlobalIDString = 7F4F5B2CB36A5C395B00283EA977E973;
 			remoteInfo = GRKBarGraphView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DE84DDBB6163D072657BD72CE04E60 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30F77E18790A7B4426DF483067474190 /* GRKBarGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRKBarGraphView-dummy.m"; sourceTree = "<group>"; };
-		4F6A3888A0E0C8D77298CE79571E4E2A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		7256E80BA00BB1C0F2B9EC37CC86ED74 /* GRKBarGraphBackingLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRKBarGraphBackingLayer.h; sourceTree = "<group>"; };
-		865F480E285992E6DD361156A7CF97F9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		884347DA030F675474F3C184EB3618E8 /* GRKBarGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRKBarGraphView.h; sourceTree = "<group>"; };
-		8FA9AA83911E9DCDD80902DF54C81DC0 /* GRKBarGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKBarGraphView.xcconfig; sourceTree = "<group>"; };
-		A46E85D8BF0AFE8724361C274D2C995F /* GRKBarGraphLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphLayer.m; sourceTree = "<group>"; };
-		AA84465306FA46A5FC43A7181C5BCC78 /* GRKBarGraphBackingLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphBackingLayer.m; sourceTree = "<group>"; };
-		B8F38A77C58F88038B977C34A9A79061 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C065C0D56E7AEB6148786F3889D9CCA /* GRKBarGraphLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRKBarGraphLayer.h; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2B092079109FADDCE1D42D7FD0A2A966 /* GRKBarGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRKBarGraphView-prefix.pch"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		6363D4613211A1DC6DC2D325DA981444 /* GRKBarGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRKBarGraphView.h; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		75F792AF2C9CB4385E7432BFC077D7EB /* GRKBarGraphBackingLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphBackingLayer.m; sourceTree = "<group>"; };
+		83FBD82F1BBE3EBA513765779EE1D017 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85091EE3A59B2B284E527B2E95BA8934 /* GRKBarGraphLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphLayer.m; sourceTree = "<group>"; };
+		88424534F80DEAE88270CFEC3D2B8665 /* GRKBarGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKBarGraphView.xcconfig; sourceTree = "<group>"; };
+		928B590939C2BDB1DB876A1B77E2DA33 /* GRKBarGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphView.m; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF5EE001791E53153CEF93D61D4C9C3D /* GRKBarGraphView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GRKBarGraphView-Private.xcconfig"; sourceTree = "<group>"; };
-		D1CDCEE07F3EC9CC6A17E100FE0AA9FD /* libGRKBarGraphView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGRKBarGraphView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEF3773133169FB8C348DB0CDB1D9CAB /* GRKBarGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphView.m; sourceTree = "<group>"; };
-		F47453336D41357849024A025EF45CA9 /* GRKBarGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRKBarGraphView-prefix.pch"; sourceTree = "<group>"; };
-		F83B7A5FE2E91B37475649CF8ED1E035 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FB9131B8DBB16FF80F81B0132D2F4ED4 /* GRKBarGraphLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRKBarGraphLayer.h; sourceTree = "<group>"; };
+		E08C05F418F1BF817F67DF148520D977 /* GRKBarGraphBackingLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRKBarGraphBackingLayer.h; sourceTree = "<group>"; };
+		EB680A397B644C132460A1E6A2F95C8B /* GRKBarGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRKBarGraphView-dummy.m"; sourceTree = "<group>"; };
+		EE8860CCA60EC600E7F081134F780BF8 /* libGRKBarGraphView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGRKBarGraphView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE8986BD3A7342849A12F08279AADF40 /* Frameworks */ = {
+		009D6B01177E12B1538D850101DE4260 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B188779A38ABA905F941216B2A5959 /* Foundation.framework in Frameworks */,
+				1D029B1E6DCE7B2CC994D3B4A26C2FBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C28E757AA13DDFB6DD0D041320EBB555 /* Frameworks */ = {
+		F7F45DE3A8979FDB2AEF702A6F2CC9B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5050E7C07D08531FE213753DC74794 /* Foundation.framework in Frameworks */,
+				BF4D15595DFEE63F366804461CB98F6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F637A8AB066486584A7BDB9D0258715 /* Support Files */ = {
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8FA9AA83911E9DCDD80902DF54C81DC0 /* GRKBarGraphView.xcconfig */,
-				BF5EE001791E53153CEF93D61D4C9C3D /* GRKBarGraphView-Private.xcconfig */,
-				30F77E18790A7B4426DF483067474190 /* GRKBarGraphView-dummy.m */,
-				F47453336D41357849024A025EF45CA9 /* GRKBarGraphView-prefix.pch */,
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		069BADC5607461BAD0978384386809F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8860CCA60EC600E7F081134F780BF8 /* libGRKBarGraphView.a */,
+				83FBD82F1BBE3EBA513765779EE1D017 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E0359DE30409C656B8FD15DAB67C0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88424534F80DEAE88270CFEC3D2B8665 /* GRKBarGraphView.xcconfig */,
+				EB680A397B644C132460A1E6A2F95C8B /* GRKBarGraphView-dummy.m */,
+				2B092079109FADDCE1D42D7FD0A2A966 /* GRKBarGraphView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "GRKBarGraphViewTestApp/Pods/Target Support Files/GRKBarGraphView";
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		313186D5E0C20E047C1E3BF54924D200 /* GRKBarGraphView */ = {
 			isa = PBXGroup;
 			children = (
-				F83B7A5FE2E91B37475649CF8ED1E035 /* Foundation.framework */,
+				E08C05F418F1BF817F67DF148520D977 /* GRKBarGraphBackingLayer.h */,
+				75F792AF2C9CB4385E7432BFC077D7EB /* GRKBarGraphBackingLayer.m */,
+				1C065C0D56E7AEB6148786F3889D9CCA /* GRKBarGraphLayer.h */,
+				85091EE3A59B2B284E527B2E95BA8934 /* GRKBarGraphLayer.m */,
+				6363D4613211A1DC6DC2D325DA981444 /* GRKBarGraphView.h */,
+				928B590939C2BDB1DB876A1B77E2DA33 /* GRKBarGraphView.m */,
 			);
-			name = iOS;
+			path = GRKBarGraphView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -98,77 +119,56 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				E6F6198F28CA0125630CDA83A943F447 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+				069BADC5607461BAD0978384386809F6 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
-				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
-				B8F38A77C58F88038B977C34A9A79061 /* Pods-dummy.m */,
-				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
-				865F480E285992E6DD361156A7CF97F9 /* Pods.debug.xcconfig */,
-				03DE84DDBB6163D072657BD72CE04E60 /* Pods.release.xcconfig */,
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		9728127AB89B10A740858C9A8A15F60C /* GRKBarGraphView */ = {
+		B7544313D4042274E09602FB522E7123 /* GRKBarGraphView */ = {
 			isa = PBXGroup;
 			children = (
-				7256E80BA00BB1C0F2B9EC37CC86ED74 /* GRKBarGraphBackingLayer.h */,
-				AA84465306FA46A5FC43A7181C5BCC78 /* GRKBarGraphBackingLayer.m */,
-				FB9131B8DBB16FF80F81B0132D2F4ED4 /* GRKBarGraphLayer.h */,
-				A46E85D8BF0AFE8724361C274D2C995F /* GRKBarGraphLayer.m */,
-				884347DA030F675474F3C184EB3618E8 /* GRKBarGraphView.h */,
-				DEF3773133169FB8C348DB0CDB1D9CAB /* GRKBarGraphView.m */,
-			);
-			path = GRKBarGraphView;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C73F8873492AACB30A48EEE37DBF1D09 /* GRKBarGraphView */ = {
-			isa = PBXGroup;
-			children = (
-				9728127AB89B10A740858C9A8A15F60C /* GRKBarGraphView */,
-				0F637A8AB066486584A7BDB9D0258715 /* Support Files */,
+				313186D5E0C20E047C1E3BF54924D200 /* GRKBarGraphView */,
+				26E0359DE30409C656B8FD15DAB67C0C /* Support Files */,
 			);
 			name = GRKBarGraphView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1CDCEE07F3EC9CC6A17E100FE0AA9FD /* libGRKBarGraphView.a */,
-				4F6A3888A0E0C8D77298CE79571E4E2A /* libPods.a */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E6F6198F28CA0125630CDA83A943F447 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C73F8873492AACB30A48EEE37DBF1D09 /* GRKBarGraphView */,
+				B7544313D4042274E09602FB522E7123 /* GRKBarGraphView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -176,26 +176,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		796F353516DE5FCC8CDF7DDF8DB54F72 /* Headers */ = {
+		26F5F9DEDF1669858645C1A743A82CA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31828BFE3EE65989D7AD799A23D2CB50 /* GRKBarGraphBackingLayer.h in Headers */,
-				28E725BB53EB801324E4201FF4BF3084 /* GRKBarGraphLayer.h in Headers */,
-				FD4549AD99ED8305D1CE94A23422EACB /* GRKBarGraphView.h in Headers */,
+				FFF9FFBB4608CD98F49506C14ECC4005 /* GRKBarGraphBackingLayer.h in Headers */,
+				78654965CB226261A9DEEAE410542E14 /* GRKBarGraphLayer.h in Headers */,
+				A208A567D798B36AA22416055976A2FA /* GRKBarGraphView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1983ECA81B19AF9198D5E8944C96DF97 /* GRKBarGraphView */ = {
+		7F4F5B2CB36A5C395B00283EA977E973 /* GRKBarGraphView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15CC509D7FB22D064F2A890359D51F02 /* Build configuration list for PBXNativeTarget "GRKBarGraphView" */;
+			buildConfigurationList = 42E1285497D94BD707C3CCB68C2694AD /* Build configuration list for PBXNativeTarget "GRKBarGraphView" */;
 			buildPhases = (
-				A41F40274216031436CDBF51D3BE41EA /* Sources */,
-				AE8986BD3A7342849A12F08279AADF40 /* Frameworks */,
-				796F353516DE5FCC8CDF7DDF8DB54F72 /* Headers */,
+				61788CFD00E79D899F9B5B1F20783C37 /* Sources */,
+				F7F45DE3A8979FDB2AEF702A6F2CC9B2 /* Frameworks */,
+				26F5F9DEDF1669858645C1A743A82CA5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -203,24 +203,24 @@
 			);
 			name = GRKBarGraphView;
 			productName = GRKBarGraphView;
-			productReference = D1CDCEE07F3EC9CC6A17E100FE0AA9FD /* libGRKBarGraphView.a */;
+			productReference = EE8860CCA60EC600E7F081134F780BF8 /* libGRKBarGraphView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		787FBB7DAB73FFDAD1545381BF22BD31 /* Pods */ = {
+		B79FB0F5A18D4C7190475870EED81499 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6662D2CD5D0CF9544AF57E5780E1E2B0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = A672FE1BD39877D093076BEFF0D3F329 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				8CEC697703CB5D070D3F2112D1684436 /* Sources */,
-				C28E757AA13DDFB6DD0D041320EBB555 /* Frameworks */,
+				F1215F1D8DD0048ACF30C22C59206746 /* Sources */,
+				009D6B01177E12B1538D850101DE4260 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADFDF09743C69160F4BF1C990C298F5C /* PBXTargetDependency */,
+				D19F9609350C057F140BDD06808863AC /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 4F6A3888A0E0C8D77298CE79571E4E2A /* libPods.a */;
+			productReference = 83FBD82F1BBE3EBA513765779EE1D017 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -240,44 +240,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 069BADC5607461BAD0978384386809F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1983ECA81B19AF9198D5E8944C96DF97 /* GRKBarGraphView */,
-				787FBB7DAB73FFDAD1545381BF22BD31 /* Pods */,
+				7F4F5B2CB36A5C395B00283EA977E973 /* GRKBarGraphView */,
+				B79FB0F5A18D4C7190475870EED81499 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8CEC697703CB5D070D3F2112D1684436 /* Sources */ = {
+		61788CFD00E79D899F9B5B1F20783C37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB7F32EDA575F95987C4D87B45A78D3 /* Pods-dummy.m in Sources */,
+				C2B348E7540CEF57F6E2EA0C9A146F2B /* GRKBarGraphBackingLayer.m in Sources */,
+				E40D8AC65FA47E788A3661AD0F553D0A /* GRKBarGraphLayer.m in Sources */,
+				6149A0F797F9C14BBD43870AF1740850 /* GRKBarGraphView-dummy.m in Sources */,
+				6F674260C9EC20082B71A8938AC054F8 /* GRKBarGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A41F40274216031436CDBF51D3BE41EA /* Sources */ = {
+		F1215F1D8DD0048ACF30C22C59206746 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAED7BE06AA1D78D3FE2B03AAF2BDB8 /* GRKBarGraphBackingLayer.m in Sources */,
-				08222A28F64BC27A5D96C7E193FEAD46 /* GRKBarGraphLayer.m in Sources */,
-				1255E4B1A47B69AF9728EFCA79757588 /* GRKBarGraphView-dummy.m in Sources */,
-				0218FABB0F662FC0C9098CF074EA960D /* GRKBarGraphView.m in Sources */,
+				424D72D043273CB1CBFDBE5EFF1C2D84 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ADFDF09743C69160F4BF1C990C298F5C /* PBXTargetDependency */ = {
+		D19F9609350C057F140BDD06808863AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GRKBarGraphView;
-			target = 1983ECA81B19AF9198D5E8944C96DF97 /* GRKBarGraphView */;
-			targetProxy = 2B6B43F6830812AFD922FB90D80721A2 /* PBXContainerItemProxy */;
+			target = 7F4F5B2CB36A5C395B00283EA977E973 /* GRKBarGraphView */;
+			targetProxy = 46294CF3DD3C3D086D1CCAD22B1809CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,44 +316,13 @@
 			};
 			name = Release;
 		};
-		0D08A1B0C85F633229F4485BF845AE48 /* Release */ = {
+		156058C1BAFB5E1D8D37968F6621BEE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03DE84DDBB6163D072657BD72CE04E60 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		51918CCFC455E82363116906015B7D4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF5EE001791E53153CEF93D61D4C9C3D /* GRKBarGraphView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GRKBarGraphView/GRKBarGraphView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8DA8C5056F3EC155254A23C8204093C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 865F480E285992E6DD361156A7CF97F9 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -363,6 +332,59 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		38FB2C6EC953DFA06A743B8B8A15CBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6A8AF6EF07441A9A96832715E3F59432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88424534F80DEAE88270CFEC3D2B8665 /* GRKBarGraphView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRKBarGraphView/GRKBarGraphView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6E013968049B704A65C794076CE16F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88424534F80DEAE88270CFEC3D2B8665 /* GRKBarGraphView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRKBarGraphView/GRKBarGraphView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -403,34 +425,9 @@
 			};
 			name = Debug;
 		};
-		E58F9CD71A7992E079AD760AB4CB8829 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF5EE001791E53153CEF93D61D4C9C3D /* GRKBarGraphView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GRKBarGraphView/GRKBarGraphView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15CC509D7FB22D064F2A890359D51F02 /* Build configuration list for PBXNativeTarget "GRKBarGraphView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E58F9CD71A7992E079AD760AB4CB8829 /* Debug */,
-				51918CCFC455E82363116906015B7D4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -440,11 +437,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6662D2CD5D0CF9544AF57E5780E1E2B0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		42E1285497D94BD707C3CCB68C2694AD /* Build configuration list for PBXNativeTarget "GRKBarGraphView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DA8C5056F3EC155254A23C8204093C3 /* Debug */,
-				0D08A1B0C85F633229F4485BF845AE48 /* Release */,
+				6A8AF6EF07441A9A96832715E3F59432 /* Debug */,
+				A6E013968049B704A65C794076CE16F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A672FE1BD39877D093076BEFF0D3F329 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156058C1BAFB5E1D8D37968F6621BEE6 /* Debug */,
+				38FB2C6EC953DFA06A743B8B8A15CBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
