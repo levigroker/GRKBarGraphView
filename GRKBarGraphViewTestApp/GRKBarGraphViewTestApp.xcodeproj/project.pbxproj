@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39FB042EC88CDD9E864A7D94 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847743A8F5466FC6D3800FA /* libPods.a */; };
+		CFF58A91E28BBF13FD7C28BD /* Pods_GRKBarGraphViewTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26A984C2279BF11B6A9389C /* Pods_GRKBarGraphViewTestApp.framework */; };
 		DB787C871970948B007DF300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C861970948B007DF300 /* Foundation.framework */; };
 		DB787C891970948B007DF300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C881970948B007DF300 /* CoreGraphics.framework */; };
 		DB787C8B1970948B007DF300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB787C8A1970948B007DF300 /* UIKit.framework */; };
@@ -34,9 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1847743A8F5466FC6D3800FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		78489F228944FDC39B82C76F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		8576F90E30928E3F61A47B1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		116B3667A5439F775AEAE323 /* Pods-GRKBarGraphViewTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRKBarGraphViewTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRKBarGraphViewTestApp/Pods-GRKBarGraphViewTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A26A984C2279BF11B6A9389C /* Pods_GRKBarGraphViewTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRKBarGraphViewTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB787C831970948B007DF300 /* GRKBarGraphViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRKBarGraphViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB787C861970948B007DF300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB787C881970948B007DF300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +54,7 @@
 		DB787CAD1970948B007DF300 /* GRKBarGraphViewTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRKBarGraphViewTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		DB787CAF1970948B007DF300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB787CB11970948B007DF300 /* GRKBarGraphViewTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKBarGraphViewTestAppTests.m; sourceTree = "<group>"; };
+		F8181CD1A417B1D4E0FA79A0 /* Pods-GRKBarGraphViewTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRKBarGraphViewTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRKBarGraphViewTestApp/Pods-GRKBarGraphViewTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				DB787C891970948B007DF300 /* CoreGraphics.framework in Frameworks */,
 				DB787C8B1970948B007DF300 /* UIKit.framework in Frameworks */,
 				DB787C871970948B007DF300 /* Foundation.framework in Frameworks */,
-				39FB042EC88CDD9E864A7D94 /* libPods.a in Frameworks */,
+				CFF58A91E28BBF13FD7C28BD /* Pods_GRKBarGraphViewTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +84,8 @@
 		7DB6DF21E934674FFC2D4DA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78489F228944FDC39B82C76F /* Pods.debug.xcconfig */,
-				8576F90E30928E3F61A47B1A /* Pods.release.xcconfig */,
+				116B3667A5439F775AEAE323 /* Pods-GRKBarGraphViewTestApp.debug.xcconfig */,
+				F8181CD1A417B1D4E0FA79A0 /* Pods-GRKBarGraphViewTestApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 				DB787C861970948B007DF300 /* Foundation.framework */,
 				DB787C881970948B007DF300 /* CoreGraphics.framework */,
 				DB787C8A1970948B007DF300 /* UIKit.framework */,
-				1847743A8F5466FC6D3800FA /* libPods.a */,
+				A26A984C2279BF11B6A9389C /* Pods_GRKBarGraphViewTestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB787CB51970948B007DF300 /* Build configuration list for PBXNativeTarget "GRKBarGraphViewTestApp" */;
 			buildPhases = (
-				FBEFE5DF64BD4E469F7A9B52 /* Check Pods Manifest.lock */,
+				FBEFE5DF64BD4E469F7A9B52 /* [CP] Check Pods Manifest.lock */,
 				DB787C7F1970948B007DF300 /* Sources */,
 				DB787C801970948B007DF300 /* Frameworks */,
 				DB787C811970948B007DF300 /* Resources */,
-				9A2A2AE44F65BA096ADF0BFB /* Copy Pods Resources */,
-				BB86B31F9F6155EB36EF5600 /* Embed Pods Frameworks */,
+				9A2A2AE44F65BA096ADF0BFB /* [CP] Copy Pods Resources */,
+				BB86B31F9F6155EB36EF5600 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,7 +212,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GRK;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Levi Brown";
 				TargetAttributes = {
 					DB787CA31970948B007DF300 = {
@@ -261,49 +261,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9A2A2AE44F65BA096ADF0BFB /* Copy Pods Resources */ = {
+		9A2A2AE44F65BA096ADF0BFB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRKBarGraphViewTestApp/Pods-GRKBarGraphViewTestApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB86B31F9F6155EB36EF5600 /* Embed Pods Frameworks */ = {
+		BB86B31F9F6155EB36EF5600 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRKBarGraphViewTestApp/Pods-GRKBarGraphViewTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FBEFE5DF64BD4E469F7A9B52 /* Check Pods Manifest.lock */ = {
+		FBEFE5DF64BD4E469F7A9B52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -378,14 +378,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -398,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -417,20 +422,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -438,7 +448,7 @@
 		};
 		DB787CB61970948B007DF300 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78489F228944FDC39B82C76F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 116B3667A5439F775AEAE323 /* Pods-GRKBarGraphViewTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -453,7 +463,7 @@
 		};
 		DB787CB71970948B007DF300 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8576F90E30928E3F61A47B1A /* Pods.release.xcconfig */;
+			baseConfigurationReference = F8181CD1A417B1D4E0FA79A0 /* Pods-GRKBarGraphViewTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
