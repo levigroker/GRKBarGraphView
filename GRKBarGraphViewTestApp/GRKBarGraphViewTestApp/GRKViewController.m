@@ -7,7 +7,7 @@
 //
 
 #import "GRKViewController.h"
-#import "GRKBarGraphView.h"
+#import <GRKBarGraphView/GRKBarGraphView.h>
 
 @interface GRKViewController ()
 

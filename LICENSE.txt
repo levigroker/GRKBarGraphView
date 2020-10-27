@@ -1,13 +1,16 @@
-Copyright (c) 2014, 2015 Levi Brown <mailto:levigroker@gmail.com>
-This work is licensed under the Creative Commons Attribution 3.0
-Unported License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
-Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
-USA.
+GRKBarGraphView
+https://github.com/levigroker/GRKBarGraphView
+A UIView subclass which renders a one-item bar graph with an animatable percentage
+property and configurable orientation, colors, etc. CALayers are used for drawing
+efficiency and implicit animation.
 
-The above attribution and this license must accompany any version of the source code.
-Visible attribution in any binary distributable including this work (or derivatives)
-is not required, but would be appreciated.
+Copyright (c) 2014-2017 Levi Brown <mailto:levigroker@gmail.com> This work is
+licensed under the Creative Commons Attribution 4.0 International License. To
+view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+The above attribution and this license must accompany any version of the source
+code, binary distributable, or derivatives.
 
 1. DISCLAIMER OF WARRANTY.  ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS
 AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A
